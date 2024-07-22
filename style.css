@@ -10,9 +10,3 @@ body{
     background-color: whitesmoke;
     flex-grow: 1;
 }
-
-.box{
-    display: flex;
-    flex-grow: 0;
-    flex-shrink: 0;
-}
