@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display:flex;
+    background-color: whitesmoke;
+    flex-grow: 1;
+}
+
+.box{
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
