@@ -5,9 +5,7 @@ let column = 16;
 
 for(let i = 0; i < row; i++){
     const box = document.createElement("div");
-    box.classList.add("box");
-    box.style.height = "5%";
-    box.style.width = "5%";
+    box.classList.add("row");
     box.style.border = "1px solid black";
 
     container.appendChild(box);
@@ -15,9 +13,7 @@ for(let i = 0; i < row; i++){
 
 for(let j = 0; j < column; j++){
     const box = document.createElement("div");
-    box.classList.add("box");
-    box.style.height = "5%";
-    box.style.width = "5%";
+    box.classList.add("column");
     box.style.border = "1px solid black";
 
     container.appendChild(box);
