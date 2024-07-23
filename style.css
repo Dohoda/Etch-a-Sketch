@@ -16,3 +16,8 @@ button {
     justify-content: center;
     margin: 25px;
 }
+
+.column {
+    height: 25px;
+    width: 25px;
+}
