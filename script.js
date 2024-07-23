@@ -23,4 +23,8 @@ function buildGrid(){
     }
 }
 
+function resetGrid(){
+    location.reload;
+}
+
 buildGrid();
