@@ -27,7 +27,7 @@ function buildGrid(){
 }
 
 function resetGrid(){
-    location.reload;
+    location.reload();
 }
 
 const gridBTN = document.querySelector("#gridBTN");
