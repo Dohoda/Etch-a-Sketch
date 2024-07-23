@@ -1,7 +1,9 @@
 const container = document.querySelector(".container");
 
-let row = 16;
-let column = 16;
+function getSize(){
+ let row = String(prompt("Number of rows:"));
+ let column = String(prompt("Number of columns:"));
+}
 
 function buildGrid(){
  for(let i = 0; i < row; i++){
