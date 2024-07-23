@@ -15,7 +15,13 @@ body{
 button {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 25px;
+    background-color: cornflowerblue;
+    border-radius: 20%;
+    border: 1px solid black;
+    height: 25px;
+    width: 125px;
 }
 
 .column {
