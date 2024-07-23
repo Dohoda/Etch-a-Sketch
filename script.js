@@ -1,8 +1,11 @@
 const container = document.querySelector(".container");
 
+let row = 0;
+let column = 0;
+
 function getSize(){
- let row = String(prompt("Number of rows:"));
- let column = String(prompt("Number of columns:"));
+  row = String(prompt("Number of rows:"));
+  column = String(prompt("Number of columns:"));
 }
 
 function buildGrid(){
@@ -27,4 +30,10 @@ function resetGrid(){
     location.reload;
 }
 
-buildGrid();
+const gridBTN = document.querySelector("#gridBTN");
+gridBTN.addEventListener("click", function(){
+    getSize();
+    buildGrid();
+});
+
+const resetBTN = document.querySelector("#resetBTN")
