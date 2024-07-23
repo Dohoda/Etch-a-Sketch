@@ -36,4 +36,7 @@ gridBTN.addEventListener("click", function(){
     buildGrid();
 });
 
-const resetBTN = document.querySelector("#resetBTN")
+const resetBTN = document.querySelector("#resetBTN");
+resetBTN.addEventListener("click",function(){
+    resetGrid();
+});
