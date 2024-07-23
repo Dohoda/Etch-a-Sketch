@@ -20,4 +20,9 @@ button {
 .column {
     height: 25px;
     width: 25px;
+    border: 1px solid black;
+}
+
+.row {
+    border: 1px solid black;
 }
