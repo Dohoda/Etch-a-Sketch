@@ -20,7 +20,10 @@ function buildGrid(){
          const column = document.createElement("div");
          column.classList.add("column");
          
-    
+         column.addEventListener("click", function(){
+            column.style.backgroundColor = "black";
+         });
+
          row.appendChild(column);
         }
     }
