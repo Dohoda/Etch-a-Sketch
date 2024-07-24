@@ -2,6 +2,7 @@ const container = document.querySelector(".container");
 
 let row = 0;
 let column = 0;
+let gridColor = "whitesmoke";
 
 function getSize(){
   row = String(prompt("Number of rows:"));
@@ -22,6 +23,19 @@ function buildGrid(){
          
          column.addEventListener("click", function(){
             column.style.backgroundColor = "black";
+         });
+         
+         column.addEventListener("mouseenter", function(){
+
+            if(column.style.backgroundColor != "black"){
+                column.style.backgroundColor = "darkgray";
+            }
+
+            column.addEventListener("mouseleave",function(){
+                if(column.style.backgroundColor != "black"){
+                    column.style.backgroundColor = "whitesmoke";
+                }
+            })
          });
 
          row.appendChild(column);
