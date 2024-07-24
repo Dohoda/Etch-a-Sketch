@@ -2,7 +2,6 @@ const container = document.querySelector(".container");
 
 let row = 0;
 let column = 0;
-let gridColor = "whitesmoke";
 
 function getSize(){
   row = String(prompt("Number of rows:"));
